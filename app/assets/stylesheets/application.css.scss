@@ -12,13 +12,9 @@
  *
  *= require_tree .
  *= require_self
+ *= require trix
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "normalize.css.scss";
 
-/***Nav***/
-
-/*.nav-pills {
-	padding-top: 2%;
-}*/
