@@ -1,9 +1,11 @@
+<%= image_tag post.image.url(:medium) %>
+
 <p>
   <h2><%= post.title %></h2>
 </p>
 
 <p>
-  <%= post.content.html_safe %>
+  <%= post.content.truncate(100).html_safe %>
 </p>
 
 <p class="text-muted">
